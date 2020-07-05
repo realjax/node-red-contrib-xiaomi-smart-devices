@@ -154,7 +154,7 @@ module.exports = function (RED) {
 
           const message = Buffer.from(JSON.stringify(cmd));
           socket.send(message, 0, message.length, this.gateway.port, this.gateway.address, () => {
-            this.log(`Sending message '${message}'`);
+            //this.log(`Sending message '${message}'`);
           });
         } else {
           this.status({fill: 'red', shape: 'ring', text: 'key is not set'});

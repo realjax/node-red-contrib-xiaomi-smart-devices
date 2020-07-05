@@ -53,13 +53,14 @@
       "xiaomi-window-door-sensor": "devices/window-door-sensor/window-door-sensor.js",
       "xiaomi-water-sensor": "devices/water-sensor/water-sensor.js",
       "xiaomi-switch": "devices/switch/switch.js",
+      "xiaomi-plug": "devices/plug/plug.js",
       "xiaomi-wall-switch": "devices/wall-switch/wall-switch.js",
       "xiaomi-smoke-detector": "devices/smoke-detector/smoke-detector.js"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/igdr/node-red-contrib-xiaomi-smart-devices.git"
+    "url": "git+ssh://git@github.com/realjax/node-red-contrib-xiaomi-smart-devices.git"
   },
   "version": "1.0.17"
 }
